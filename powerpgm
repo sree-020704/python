@@ -1,0 +1,4 @@
+def power(base, exponent):
+    return base ** exponent
+
+print("Result:", power(2, 3))  
