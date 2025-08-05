@@ -1,0 +1,13 @@
+arr=[1,2,4,5]
+print("max",max(arr)) #max of array
+
+arr.reverse()
+print("reverse:",arr) #reverse of array
+
+#missing num in array
+
+arr=[1,2,4,5]
+n=len(arr)+1
+total=n*(n+1)//2
+print(total-sum(arr))
+
