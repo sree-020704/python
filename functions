@@ -1,0 +1,17 @@
+def greet():
+    print("hello world")
+greet() #without paramters and return
+
+def greet(name):
+    print("name",name)
+greet(bhavs) #with paramaters and no return
+
+def greet(name):
+    return name
+res=greet(name)
+print("name",res) #with return and paramaters
+
+def greet(name="guest"):
+    print("hello",name)
+greet() #default name
+greet(eswar) #override
