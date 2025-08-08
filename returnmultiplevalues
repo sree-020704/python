@@ -1,0 +1,6 @@
+def calc(a,b):
+    return a+b,a-b,a*b
+x,y,z=calc(2,7)
+print("sum",x)
+print("sub",y)
+print("product",z) #returning multiple values
