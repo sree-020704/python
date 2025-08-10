@@ -1,0 +1,3 @@
+def  show_details(**info):
+    return  info
+print(show_details(name="bhavs",age=21))  #**info this shows to give dict values
