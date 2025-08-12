@@ -1,0 +1,6 @@
+a=3,b=4
+a,b=b,a      #swap nums
+print(a,b)
+
+nums=[1,2,3,4,5]  #remove duplicates
+print(list(set(nums)))
