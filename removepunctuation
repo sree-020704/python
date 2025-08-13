@@ -1,0 +1,8 @@
+import string:
+text="Hello World!"
+kept_char=[]
+for char in text:
+    if char not in string.punctuation:
+        kept_char.append(char)
+clean="".join(kept_char)
+print(clean)
