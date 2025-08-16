@@ -1,0 +1,27 @@
+def find_common_letters(string1, string2):
+    """
+    Finds and returns the common letters between two strings in alphabetical order.
+    """
+    # Convert both strings to sets to find unique characters
+    set1 = set(string1.lower())  # Convert to lowercase for case-insensitive comparison
+    set2 = set(string2.lower())
+    
+    # Find the intersection of the two sets
+    common_letters = set1.intersection(set2)
+    
+    # Remove non-alphabetic characters
+    common_letters = {char for char in common_letters if char.isalpha()}
+    
+    # Return the sorted list of common letters
+    return sorted(common_letters)
+
+# Input strings
+string1 = input("Enter the first string: ")
+string2 = input("Enter the second string: ")
+
+# Find and display common letters
+common = find_common_letters(string1, string2)
+if common:
+    print("Common letters:", ", ".join(common))
+else:
+    print("No common letters found.")
