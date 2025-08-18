@@ -1,0 +1,5 @@
+string=input("enter :")
+if len(set(string))==len(string):
+    print("unique")
+else:
+     print("not unique")
